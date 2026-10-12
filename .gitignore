@@ -1,0 +1,27 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Build output
+dist/
+**/dist/
+build/
+coverage/
+
+# Deployment and logs
+.vercel/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
